@@ -59,7 +59,7 @@ class alert_Plugin extends Plugin
     {
         $this->edit = $edit;
         ob_start();
-        require('include/_html.php');
+        require(__DIR__.'/include/_html.php');
         $html = str_replace(["\r", "\n", "\t"], '', trim(ob_get_clean()));
         $html = preg_replace('/(\s){2,}/s', '', $html);
         return $html;
