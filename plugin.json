@@ -1,0 +1,7 @@
+{
+    "name": "Alert",
+    "slug": "Alert",
+    "icon": "[\"fas\", \"exclamation-circle\"]",
+    "version": "1.0.0",
+    "author": "WebApps"
+}
