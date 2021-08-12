@@ -29,7 +29,8 @@ class alert_Plugin extends Plugin
             'options' => [
                 'blue' => 'Information',
                 'yellow' => 'Warning',
-                'red' => 'Alert'
+                'red' => 'Alert',
+                'green' => 'Success',
             ]
         ],
         'title' => [
