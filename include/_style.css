@@ -6,4 +6,5 @@ body.view {
 
 .preview .Alert {
     max-height: 208px;
+    height: 208px !important;
 }
